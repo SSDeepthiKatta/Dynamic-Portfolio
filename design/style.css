@@ -1,0 +1,114 @@
+/*body{
+    background: url(imagex/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 750px;
+    }*/
+body{
+    background: url(http://creabuild.com/wp-content/uploads/2015/08/background18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+#bg{
+    position:fixed;
+    top:0;
+    left:0;
+    min-width:100%;
+    min-height: 100%;
+}
+h1 {
+    color: black;
+    position: center;
+    margin-top: 10px;
+}
+#resp li{
+    font-family: "Times New Roman";
+    font-size: 16px;
+}
+#exp{
+    font-family: "Times New Roman";
+font-size: 18px;
+}
+#exp h3{
+    font-size: 23px;
+    font-family: Algerian;
+}
+li{
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+a{
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+p {
+    font-size: 20px;
+    color: #00008b;
+}
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+ull {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#proj_list {
+    font-size: 23px;
+}
+#price echo{
+    font-size: 15px;
+}
+
+/* contact form styling
+ */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 2px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #6177a0;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #c0c1c6;
+    padding: 15px;
+}
+.container1 {
+    border-radius: 0px;
+    background-color: #c0c1c6;
+    padding: 0px;
+    margin-left: 180px
+}
